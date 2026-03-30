@@ -95,3 +95,28 @@ footer {
     text-align: center;
     font-size: 0.9rem;
 }
+
+.product-card {
+    background: #fff;
+    border: 2px solid var(--accent);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.social-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
